@@ -1,0 +1,35 @@
+> general.gof.solver(v1, "Geometric", 10)
+[[1]]
+[1] 0
+
+> general.gof.solver(v1, "Poisson", 10)
+[[1]]
+[1] 0
+
+> general.gof.solver(v1, "Uniform", 10)
+[[1]]
+[1] 0
+
+> general.gof.solver(v1, "Normal", 10)
+[[1]]
+[1] 1.01
+
+> general.gof.solver(v1, "Exponential", 10)
+[[1]]
+[1] 0
+
+> general.gof.solver(v1, "Gamma", 10)
+[[1]]
+[1] 0.93
+
+
+
+
+> Bootstrap_gold(v1, statfunc, 10000, 0.1)
+$bootstrap.confidence.interval
+      95%        5% 
+0.2246531 3.6663481 
+
+$normal.confidence.interval
+[1] 0.3146372 3.5720295
+
